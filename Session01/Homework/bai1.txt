@@ -1,0 +1,20 @@
+1. How to check a variable's type?
+Use function type
+
+>>>type("Hello world")
+<class 'srt'>
+"hello world" is string type
+
+>>>type(21)
+<class 'int'>
+17 is integer type
+
+In what cases, you will get SyntaxError from the compiler telling you that some of your variables have invalid names?
+- Name starts with a number
+- Name contains an illegal charater like $ @ ?
+- Name contains one of the python keywords like def if true flase ...
+
+Examples of invalid names:
+999roses
+ITlover@
+break_the_ice
